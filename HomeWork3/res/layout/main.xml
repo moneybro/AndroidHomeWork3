@@ -16,7 +16,7 @@
 
     <Button
         android:id="@+id/btnActTwo"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
         android:layout_below="@+id/textView1"
@@ -26,11 +26,18 @@
     <Button
         android:id="@+id/faktorialActivity"
         style="@string/app_name"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="78dp"
+        android:layout_alignLeft="@+id/btnActTwo"
+        android:layout_below="@+id/btnActTwo"
         android:text="Факториал N чисел" />
+
+    <Button
+        android:id="@+id/les4task1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/faktorialActivity"
+        android:layout_below="@+id/faktorialActivity"
+        android:text="Урок 4. Задание 1." />
 
 </RelativeLayout>

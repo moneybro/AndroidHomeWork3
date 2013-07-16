@@ -14,6 +14,7 @@ public class MainActivity extends Activity implements OnClickListener {
 
 	  Button btnActTwo;
 	  Button faktorialActivity;
+	  Button les4task1;
 	  TextView tv;
 
 	@Override
@@ -25,6 +26,9 @@ public class MainActivity extends Activity implements OnClickListener {
 		btnActTwo.setOnClickListener(this);
 		faktorialActivity = (Button) findViewById(R.id.faktorialActivity);
 		faktorialActivity.setOnClickListener(this);
+		les4task1 = (Button) findViewById(R.id.les4task1);
+		les4task1.setOnClickListener(this);
+		
 		
 		tv = (TextView) findViewById(R.id.textView1);
 		tv.setOnClickListener(this);
@@ -47,6 +51,10 @@ public class MainActivity extends Activity implements OnClickListener {
 		case R.id.faktorialActivity:
 			Intent intentFactorial = new Intent(this, FaktorialView.class);
 			startActivity(intentFactorial);
+			break;
+		case R.id.les4task1:
+			Intent intentles4task1 = new Intent(this, les4task1.class);
+			startActivity(intentles4task1);
 			break;
 			default:
 				break;
