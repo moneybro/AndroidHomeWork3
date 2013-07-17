@@ -5,7 +5,8 @@
         android:id="@+id/action_copy"
         android:orderInCategory="100"
         android:showAsAction="never"
-        android:title="@string/action_copy"/>
+        android:title="@string/action_copy"
+        android:icon="@drawable/my_face"/>
     <item
         android:id="@+id/action_copy_of"
         android:orderInCategory="100"
