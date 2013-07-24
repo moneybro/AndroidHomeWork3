@@ -25,6 +25,8 @@
         <activity android:name="android.lesson3.homework.fenske.SummNElements"></activity>
         <activity android:name="android.lesson3.homework.fenske.FaktorialView"></activity>
         <activity android:name="android.lesson3.homework.fenske.les4task1"></activity>
+        <activity android:name="moscow.android.lesson3.fenske.AboutMainActivity"></activity>
+        
     </application>
 
 </manifest>

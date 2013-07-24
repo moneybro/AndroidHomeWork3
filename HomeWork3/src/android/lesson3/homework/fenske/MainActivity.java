@@ -1,10 +1,12 @@
 package android.lesson3.homework.fenske;
 
 import ru.startandroid.develop.p0211twoactivity.R;
+import moscow.android.lesson3.fenske.AboutMainActivity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -53,11 +55,32 @@ public class MainActivity extends Activity implements OnClickListener {
 			startActivity(intentFactorial);
 			break;
 		case R.id.les4task1:
-			Intent intentles4task1 = new Intent(this, les4task1.class);
-			startActivity(intentles4task1);
+			//Intent intentles4task1 = new Intent(this, les4task1.class);
+			Intent intent = new Intent(this, AboutMainActivity.class);
+			//intent.setClassName("moscow.android.lesson3.fenske", "moscow.android.lesson3.fenske.AboutMainActivity");
+			startActivity(intent);
 			break;
 			default:
 				break;
 		}
 	}
+	
+	/*
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) 
+	{
+		final Intent intent = new Intent();
+		intent.setClassName("moscow.android.lesson3.fenske", "moscow.android.lesson3.fenske.AboutMainActivity");
+	    // Операции для выбранного пункта меню
+	    switch (item.getItemId()) 
+		{
+	    case R.id.action_about:
+	    	startActivity(intent);
+	        return true;
+	    default:
+	        return super.onOptionsItemSelected(item);
+	    }
+	}
+	*/
 }

@@ -29,9 +29,9 @@ public final class R {
         public static final int save_btn=0x7f020002;
     }
     public static final class id {
+        public static final int action_about=0x7f090009;
         public static final int action_copy=0x7f090007;
         public static final int action_copy_of=0x7f090008;
-        public static final int action_save=0x7f090009;
         public static final int btnActTwo=0x7f090004;
         public static final int faktCountBtn=0x7f090002;
         public static final int faktorialActivity=0x7f090005;
